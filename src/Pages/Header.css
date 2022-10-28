@@ -1,0 +1,27 @@
+.h_icon{
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+    background-color:white;
+    box-shadow: 5px;
+    width: 100%;
+    top:0;
+    z-index:50;
+    grid: cols -3px;
+}
+
+.h_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+    
+}

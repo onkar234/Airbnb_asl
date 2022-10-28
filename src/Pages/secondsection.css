@@ -1,0 +1,39 @@
+.second{
+    height: 50vh;
+    position: relative;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.s_info {
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.s_info > button{
+    background-color: white;
+    color: black;
+    text-transform: inherit;
+}
+
+.s_info > h1 {
+    font-size: 32px;
+}
+
+.i_info{
+    background-image: url("D:\SPIT\ASL DRIVE\aslapp\src\images\camel.png");
+    background-size: cover;
+    height: 20rem;
+    width: 25rem;
+}
+
+.i_info > button{
+    margin: 10rem;
+    color: black;
+    background-color: white;
+    border-color: white;
+}
